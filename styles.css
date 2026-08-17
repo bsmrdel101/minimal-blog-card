@@ -1,0 +1,74 @@
+:root {
+  --font-title: 1.125rem;
+  --font-body: 0.875rem;
+  --font-sm: 0.75rem;
+  --font-tag: 0.625rem;
+
+  --dark-0: #20293A;
+  --dark-1: #394150;
+  --white-0: #FAFAF9;
+  --white-1: #FFFFFF;
+  --gray-0: #E5EAF0;
+  --purple-0: #7C19EE;
+  --purple-1: #F2EAFD;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.card {
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  background-color: var(--white-0);
+  border-radius: 0.8rem;
+  margin: auto;
+  max-width: 23rem;
+}
+
+.card__content {
+  padding: 1rem;
+}
+
+.card img {
+  border-radius: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.card__tag {
+  font-size: var(--font-tag);
+  font-weight: 600;
+  background-color: var(--purple-1);
+  color: var(--purple-0);
+  border-radius: 1rem;
+  padding: 0.2rem 1rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+article h2 {
+  font-size: var(--font-title);
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+article p {
+  font-size: var(--font-body);
+  color: var(--dark-0);
+  font-weight: 300;
+}
+
+.card__author {
+  font-size: var(--font-sm);
+  font-weight: 400;
+  color: var(--dark-0);
+  border-top: 1px solid var(--gray-0);
+  padding: 1rem;
+}
